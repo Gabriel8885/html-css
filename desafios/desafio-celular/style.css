@@ -20,7 +20,7 @@ body{
 
 iframe{
     height: 473px;
-    width: 268px;
+    width: 267.6px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,4 +37,9 @@ nav{
 img{
     width: 50px;
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+img:hover{
+    border: 1px solid rgb(64, 255, 0);
 }
