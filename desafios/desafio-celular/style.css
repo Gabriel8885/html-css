@@ -19,13 +19,22 @@ body{
 }
 
 iframe{
-    height: 74%;
-    width: 85%;
+    height: 473px;
+    width: 268px;
     position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -49.5%);
+}
 
-    overflow: hidden;
+nav{
+    width: 50px;
+    position: absolute;
+    right: 1%;
+}
+
+img{
+    width: 50px;
+    border-radius: 50%;
 }
