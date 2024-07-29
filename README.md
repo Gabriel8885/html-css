@@ -3,7 +3,7 @@
 
 GABRIEL ANIMAÇÕES
 
-<a href="/exercícios/README.md">Exercícios</a>
+<a href="/exercícios/temporario.html">Exercícios</a>
 
 <a href="/desafios">Desafios</a>
 
