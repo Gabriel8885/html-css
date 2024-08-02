@@ -20,6 +20,10 @@
         display: inline-block;
     }
 
+    menu >ul{
+        text-align: center;
+    }
+
     main{
         width: 769px;
     }
