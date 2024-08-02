@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">Menu</span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod vel aliquid obcaecati optio maxime asperiores veritatis? Numquam perspiciatis iusto dicta adipisci sunt culpa veniam odio iste magnam, impedit pariatur est?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ducimus tempore repellat odit reprehenderit cum blanditiis deleniti eos temporibus modi excepturi, ipsam atque corporis non? Itaque, fuga eveniet! Saepe, ullam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil omnis doloribus assumenda sed deleniti, dolor recusandae earum cupiditate numquam exercitationem, explicabo quisquam. Laboriosam, commodi perspiciatis unde quaerat ipsa et!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (items.style.display == block){
+                items.style.display = 'none';
+            }
+            else{
+                items.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
